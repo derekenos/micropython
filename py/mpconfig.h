@@ -590,14 +590,14 @@
 
 // Whether to include emacs-style readline behavior in REPL
 #ifndef MICROPY_REPL_EMACS_KEYS
-#define MICROPY_REPL_EMACS_KEYS (0)
+#define MICROPY_REPL_EMACS_KEYS (1)
 #endif
 
 // Whether to include emacs-style word movement/kill readline behavior in REPL.
 // This adds Alt+F, Alt+B, Alt+D and Alt+Backspace for forward-word, backward-word, forward-kill-word
 // and backward-kill-word, respectively.
 #ifndef MICROPY_REPL_EMACS_WORDS_MOVE
-#define MICROPY_REPL_EMACS_WORDS_MOVE (0)
+#define MICROPY_REPL_EMACS_WORDS_MOVE (1)
 #endif
 
 // Whether to include extra convenience keys for word movement/kill in readline REPL.
